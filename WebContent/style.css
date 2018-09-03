@@ -1,0 +1,56 @@
+@charset "UTF-8";
+* {margin: 0px;padding: 0px;}
+a:link {color: #3F0800;}
+a:hover {color: #ce0000;}
+a:visited {color: #3F0800;}
+
+body {background-color: #F0F0F0;font: 20px Segoe UI, Tahoma, Verdana, Arial, Helvetica, Sans-Serif;color: #3F0800;}
+#wrapper {width:100%;height:2048px;}
+#header{top:0;left:0;height:100px;background: #ffffff;}
+.logo{position:absolute;margin:36px 20px;}
+.navline{list-style:none;position:absolute;left:220px; top:40px;}
+.navline a{text-decoration:none;color: #3F0800;}
+.navline li {float:left; margin:0 10px;}
+.search{position:absolute; right:20px;top:28px;}
+
+form[name="search"] {background-color: #e5e5e5;width: 653px;}
+button{background-color: #D88421;height:50px;width: 208px;color: #FFFFFF;border: 0;}
+.button_hd{float: right}
+input{text-indent:10px;font: 16px Segoe UI;height:50px;background-color: #e5e5e5;border:0;width:380px}
+
+#banner{position:relative;width:100%;height:600px;text-align:center;margin:0 auto;background:url(images/architecture-blur-build-159358.png) no-repeat;
+background-size:cover;color:#fffefe;text-shadow: 1px 1px black;}
+.banner_text{padding:40px 300px 40px 300px;}
+.banner_h1{text-transform:uppercase;font-size:60px;font-weight:bold;}
+.banner_h2{text-transform:uppercase;font-size:36px;}
+.banner_h3{text-transform:uppercase;font-size:24px;font-weight:bold;padding:40px;}
+
+form[name="details"]{position:absolute;bottom:40px;width:100%}
+form[name="callback"]{margin:auto;}
+
+#section1{position:relative;width:100%;text-align:center;color:#fffefe;text-shadow: 0px 0.5px black;color:#3F0800;padding:40px 0 0 0;}
+#section2{position:relative;width:100%;text-align:center;color:#fffefe;text-shadow: 0px 0.5px black;color:#3F0800;padding:20px 0 0 0;}
+.p_banner{text-transform:uppercase;font-size:24px;font-weight:bold;padding:10px;}
+.p_banner_text{padding:40px 200px 40px 200px;}
+.pic{margin:10px 10px 10px 10px;height:360px;width:360px;}
+.block {text-align: center;width: 80%;margin: 0 auto;overflow: hidden;}
+.block span {position: relative;}
+.block1 {text-align: center;width: 80%;margin: 0 auto;overflow: hidden;}
+.block1 span {position: relative;}
+.block span:before {display: block;width:539px;content: '';position: absolute;border-bottom: 2px solid #3F0800;top:50%;right: 570px;}
+.block span:after {display: block;width:720px;content: '';position: absolute;border-bottom: 2px solid #3F0800;top:50%;left: 570px;}
+.block1 span:before {display: block;width:184px;content: '';position: absolute;border-bottom: 2px solid #3F0800;top:50%;right: 597px;}
+.block1 span:after {display: block;width:187px;content: '';position: absolute;border-bottom: 2px solid #3F0800;top:50%;left: 594px;}
+#block_trio{margin:35px auto;}
+#block_trio_down{margin:420px auto;}
+#block_trio1{margin:35px auto;}
+#block_trio1_down{margin:420px auto;}
+.column_left{position:absolute;width:33.3%;text-align:center;left:0;}
+.column_center{position:absolute;width:33.3%;text-align:center;left:33.3%;}
+.column_right{position:absolute;width:33.3%;text-align:center;left:66.6%;}
+
+#footer{bottom:0;position:relative;width:100%;height:548px;text-align:center;background:url(images/footer.png) no-repeat;
+background-size:cover;color:#fffefe;text-shadow: 1px 1px black;}
+.callback{margin:auto;}
+
+#copyright{position:absolute;bottom:0;left:0;width:100%;background:#292021;color:#857375;line-height:100px;}
